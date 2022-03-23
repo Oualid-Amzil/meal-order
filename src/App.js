@@ -76,13 +76,13 @@ const App = () => {
         <NavBar />
         {notification && <Notification {...notification} />}
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />}></Route>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/dishes" element={<Dishes />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/menu" element={<Menu />}></Route>
-          <Route path="/Review" element={<Review />}></Route>
-          <Route path="/order" element={<Order />}></Route>
+          <Route path="meal-order/" element={<Navigate to="/home" />}></Route>
+          <Route path="meal-order/home" element={<Home />}></Route>
+          <Route path="meal-order/dishes" element={<Dishes />}></Route>
+          <Route path="meal-order/about" element={<About />}></Route>
+          <Route path="meal-order/menu" element={<Menu />}></Route>
+          <Route path="meal-order/Review" element={<Review />}></Route>
+          <Route path="meal-order/order" element={<Order />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
         <Footer />

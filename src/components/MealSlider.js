@@ -17,7 +17,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 23.99,
-    image: "../public/images/home-img-1.png",
+    image: "../images/home-img-1.png",
   },
   {
     id: 1,
@@ -25,7 +25,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 19.99,
-    image: "../public/images/home-img-2.png",
+    image: "../images/home-img-2.png",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 15.99,
-    image: "../public/images/home-img-3.png",
+    image: "../images/home-img-3.png",
   },
 ];
 
