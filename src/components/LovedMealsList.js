@@ -22,10 +22,6 @@ const LovedMealsList = () => {
     dispatch(cartActions.addMealToCart(meal));
   };
 
-  const removeFromListHandler = (id) => {
-    dispatch(favoriteActions.removeFromList(id));
-  };
-
   let content = <h1 className="no__meals">You loved no meals.</h1>;
 
   if (lovedMeals.length > 0) {
