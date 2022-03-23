@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
+import homeImg1 from "../images/home-img-1.png";
+import homeImg2 from "../images/home-img-2.png";
+import homeImg3 from "../images/home-img-3.png";
+
 import Button from "../UI/Button";
 import { cartActions } from "../store/cart-slice";
 import Slider from "react-slick";
@@ -17,7 +21,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 23.99,
-    image: "../images/home-img-1.png",
+    image: homeImg1,
   },
   {
     id: 1,
@@ -25,7 +29,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 19.99,
-    image: "../images/home-img-2.png",
+    image: homeImg2,
   },
   {
     id: 2,
@@ -33,7 +37,7 @@ const DUUMY__DATA = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?",
     price: 15.99,
-    image: "../images/home-img-3.png",
+    image: homeImg3,
   },
 ];
 
