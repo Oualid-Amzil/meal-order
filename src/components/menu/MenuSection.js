@@ -3,7 +3,16 @@ import React from "react";
 import MenuItem from "./MenuItem";
 import Head from "../../UI/Head";
 
-// import "./MenuSection.css";
+import menuOne from "../../images/menu-1.jpg";
+import menuTow from "../../images/menu-2.jpg";
+import menuThree from "../../images/menu-3.jpg";
+import menuFour from "../../images/menu-4.jpg";
+import menuFive from "../../images/menu-5.jpg";
+import menuSix from "../../images/menu-6.jpg";
+import menuSeven from "../../images/menu-7.jpg";
+import menuEight from "../../images/menu-8.jpg";
+import menuNine from "../../images/menu-9.jpg";
+
 import Section from "../../UI/Section";
 
 const DUUMY__DATA = [
@@ -12,7 +21,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-1.jpg",
+    image: menuOne,
     price: 26.99,
   },
   {
@@ -20,7 +29,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-2.jpg",
+    image: menuTow,
     price: 8.99,
   },
   {
@@ -28,7 +37,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-3.jpg",
+    image: menuThree,
     price: 22.99,
   },
   {
@@ -36,7 +45,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-4.jpg",
+    image: menuFour,
     price: 15.99,
   },
   {
@@ -44,7 +53,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-5.jpg",
+    image: menuFive,
     price: 20.99,
   },
   {
@@ -52,7 +61,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-6.jpg",
+    image: menuSix,
     price: 12.99,
   },
   {
@@ -60,7 +69,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-7.jpg",
+    image: menuSeven,
     price: 16.69,
   },
   {
@@ -68,7 +77,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-8.jpg",
+    image: menuEight,
     price: 12.93,
   },
   {
@@ -76,7 +85,7 @@ const DUUMY__DATA = [
     name: "Delicious Food",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.",
-    image: "images/menu-9.jpg",
+    image: menuNine,
     price: 9.99,
   },
 ];

@@ -4,64 +4,70 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import picOne from "../../images/pic-1.png";
+import picTow from "../../images/pic-2.png";
+import picThree from "../../images/pic-3.png";
+import picFour from "../../images/pic-4.png";
+
 import ReviewItem from "./ReviewItem";
 import Head from "../../UI/Head";
 import "./ReviewSection.css";
+import { PieChartOutlineRounded } from "@mui/icons-material";
 
 const DUUMY__DATA = [
   {
     id: 0,
     name: "jhon deo",
-    image: "images/pic-1.png",
+    image: picOne,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 1,
     name: "hanan",
-    image: "images/pic-2.png",
+    image: picTow,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 2,
     name: "mimoun rejaflah",
-    image: "images/pic-3.png",
+    image: picThree,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 3,
     name: "lahssn amyiir",
-    image: "images/pic-4.png",
+    image: picFour,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 4,
     name: "devide deo",
-    image: "images/pic-1.png",
+    image: picOne,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 5,
     name: "halima",
-    image: "images/pic-2.png",
+    image: picTow,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 6,
     name: "oualid amzil",
-    image: "images/pic-3.png",
+    image: picThree,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
   {
     id: 7,
     name: "dexter",
-    image: "images/pic-4.png",
+    image: picFour,
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.",
   },
