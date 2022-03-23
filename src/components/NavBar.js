@@ -33,49 +33,49 @@ const NavBar = () => {
 
   return (
     <header className="header">
-      <Link to="meal-order/Home" className="header__logo">
+      <Link to="/meal-order/Home" className="header__logo">
         <RestaurantIcon fontSize="large" sx={{ color: "#27ae60" }} />
         resto.
       </Link>
 
       <ul>
         <NavLink
-          to="meal-order/home"
+          to="/meal-order/home"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>home</li>
         </NavLink>
 
         <NavLink
-          to="meal-order/dishes"
+          to="/meal-order/dishes"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>dishes</li>
         </NavLink>
 
         <NavLink
-          to="meal-order/about"
+          to="/meal-order/about"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>about</li>
         </NavLink>
 
         <NavLink
-          to="meal-order/menu"
+          to="/meal-order/menu"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>menu</li>
         </NavLink>
 
         <NavLink
-          to="meal-order/review"
+          to="/meal-order/review"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>review</li>
         </NavLink>
 
         <NavLink
-          to="meal-order/order"
+          to="/meal-order/order"
           className={(navData) => (navData.isActive ? "active" : "")}
         >
           <li>order</li>
