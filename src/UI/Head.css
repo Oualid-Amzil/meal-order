@@ -1,0 +1,21 @@
+.sub__heading {
+  color: #27ae60;
+  font-size: 18px;
+}
+
+.heading {
+  color: #192a56;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 640px) {
+  .sub__heading {
+    font-size: 15px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+}

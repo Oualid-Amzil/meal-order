@@ -1,0 +1,36 @@
+.exit__searchBar {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.exit__searchBar:hover {
+  opacity: 0.9;
+  transform: scale(0.8);
+}
+
+.search__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text__input {
+  border: none;
+  border-bottom: 2px solid #666;
+  width: 400px;
+  font-size: 22px;
+  padding: 10px 0;
+  background-color: transparent;
+  color: whitesmoke;
+  outline: none;
+}
+
+.search__icon {
+  opacity: 0.9;
+}
+
+.search__icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

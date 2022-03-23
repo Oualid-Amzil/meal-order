@@ -1,0 +1,128 @@
+.exit__shoppingCart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.exit__shoppingCart:hover {
+  opacity: 0.9;
+  transform: scale(0.8);
+}
+
+.shopping__cart {
+  padding: 20px;
+  width: 60%;
+  height: 80%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping__cart .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+.shopping__cart .title h2 {
+  color: #000;
+}
+
+.shopping__cart .title span {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shopping__cart .meals__list {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* border-bottom: 1px solid #666; */
+}
+
+.shopping__cart .meals__list::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.shopping__cart .meals__list::-webkit-scrollbar {
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.shopping__cart .meals__list::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: rgb(182, 172, 172);
+}
+
+.shopping__cart .total__price {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+  border: 0.5px solid #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.shopping__cart .total__price label {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping__cart .total__price h2 {
+  color: #27ae60;
+}
+
+@media (max-width: 1000px) {
+  .shopping__cart {
+    padding: 14px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .shopping__cart .meals__list {
+    padding: 10px;
+  }
+
+  .shopping__cart {
+    padding: 14px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .shopping__cart {
+    padding: 50px 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .exit__shoppingCart {
+    color: #000 !important;
+    top: 10px;
+    right: 10px;
+    height: 30px !important;
+    width: 30px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .shopping__cart {
+    padding: 50px 10px;
+  }
+
+  .shopping__cart .title h2 {
+    font-size: 20px;
+  }
+
+  .shopping__cart .meals__list {
+    padding: 0;
+  }
+}
