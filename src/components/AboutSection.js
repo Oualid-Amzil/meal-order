@@ -3,6 +3,8 @@ import React from "react";
 import Button from "../UI/Button";
 import Head from "../UI/Head";
 
+import aboutImage from "../images/about-img.png";
+
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import CurrencyExchangeIcon from "@mui/icons-material/CurrencyExchange";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
@@ -15,7 +17,7 @@ const AboutSection = () => {
 
       <div className="row">
         <div className="image">
-          <img src="images/about-img.png" alt="about" />
+          <img src={aboutImage} alt="about" />
         </div>
 
         <div className="content">

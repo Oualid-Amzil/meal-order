@@ -3,51 +3,50 @@ import React from "react";
 import SingleDishe from "./SingleDishe";
 import Head from "../../UI/Head";
 
-import disheOne from "../../images/dish-1.png";
-import disheTow from "../../images/dish-2.png";
-import disheThree from "../../images/dish-3.png";
-import disheFour from "../../images/dish-4.png";
-import disheFive from "../../images/dish-5.png";
-import disheSix from "../../images/dish-6.png";
+import dishOne from "../../images/dish-1.png";
+import dishTow from "../../images/dish-2.png";
+import dishThree from "../../images/dish-3.png";
+import dishFour from "../../images/dish-4.png";
+import dishFive from "../../images/dish-5.png";
+import dishSix from "../../images/dish-6.png";
 
-// import "./DishesSection.css";
 import Section from "../../UI/Section";
 
 const DummyData = [
   {
     id: 0,
     name: "tasty food",
-    image: disheOne,
+    image: dishOne,
     price: 15.99,
   },
   {
     id: 1,
     name: "tasty food",
-    image: disheTow,
+    image: dishTow,
     price: 13.99,
   },
   {
     id: 2,
     name: "tasty food",
-    image: disheThree,
+    image: dishThree,
     price: 10.99,
   },
   {
     id: 3,
     name: "tasty food",
-    image: disheFour,
+    image: dishFour,
     price: 14.99,
   },
   {
     id: 4,
     name: "tasty food",
-    image: disheFive,
+    image: dishFive,
     price: 18.99,
   },
   {
     id: 5,
     name: "tasty food",
-    image: disheSix,
+    image: dishSix,
     price: 22.99,
   },
 ];
