@@ -21,22 +21,22 @@ const Footer = () => {
         <div className="box__footer">
           <h3>quick links</h3>
           <ul className="footer__list">
-            <Link to="/home">
+            <Link to="/meal-order/home">
               <li>home</li>
             </Link>
-            <Link to="dishes">
+            <Link to="/meal-order/dishes">
               <li>dishes</li>
             </Link>
-            <Link to="/about">
+            <Link to="/meal-order/about">
               <li>about</li>
             </Link>
-            <Link to="/menu">
+            <Link to="/meal-order/menu">
               <li>menu</li>
             </Link>
-            <Link to="/review">
+            <Link to="/meal-order/review">
               <li>review</li>
             </Link>
-            <Link to="/order">
+            <Link to="/meal-order/order">
               <li>order</li>
             </Link>
           </ul>
